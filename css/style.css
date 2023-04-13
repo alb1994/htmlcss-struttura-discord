@@ -31,34 +31,123 @@ header{
     border:1px dashed black;
     text-align: right;
 }
+
 /*fine header*/
 /*inizio main*/
 .conteiner-main{
     display: flex;
     flex-direction:column;
+    
 }
+/*inizio row main*/
 .row-main-1{
     height: 250px;
     background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row-main-2{
     height: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row-main-3{
     height: 250px;
     background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row-main-4{
     height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row-main-5{
     height: 500px;
-   background-color:gray;
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .row-main-6{
     height: 250px;
-   background-color: black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+/*fine row main*/
+/*inizio column main*/
+.column-row-1{
+    height: 200px;
+    width: calc(50%);
+    background-color: violet;
+    display: flex;
+    border: 1px dashed black;
+}
+.column-row-2{
+    height: 200px;
+    width: calc(60%);;
+    display: flex;
+    border: 1px dashed black;
+}
+.column-row-3{
+    height: 200px;
+    width: calc(60%);
+    background-color: violet;
+    display: flex;
+    border: 1px dashed black;
+}
+.column-row-4{
+    height: 200px;
+    width: calc(60%);
+    background-color: violet;
+    display: flex;
+    border: 1px dashed black;
+}
+.column-row-5{
+    height: 400px;
+    width: calc(60%);
+    background-color: violet;
+    display: flex;
+    border: 1px dashed black;
+}
+.column-row-6{
+    height: 200px;
+    width: calc(60%);
+    background-color: violet;
+    display: flex;
+    border: 1px dashed black;
+}
+/*fine column main*/
+/*inizio contenuto colonne main*/
+.content2-1{
+    width: 60%;
+    height: 200px;
+    background-color: blue;
+
+}
+.content2-2{
+    width: 40%;
+    height: 200px;
+    background-color: violet;
+}
+.content3-1{
+    width: 40%;
+    height: 200px;
+    background-color: blue;
+
+}
+.content3-2{
+    width: 60%;
+    height: 200px;
+    background-color: violet;
+}
+/*fine contenuto colonne main*/
 /*fine main*/
 hr{
     color: gray;
