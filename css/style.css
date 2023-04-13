@@ -6,16 +6,16 @@
 /*inizio header*/
 header{
     background-color: aquamarine;
-    height: 40px;
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .row-header{
     background-color: yellow;
     display: flex;
     width: calc(60%);
     justify-content: space-between;
-    height: calc(80%);
 }
 .column-header-1{
     width: calc(25%);
@@ -32,3 +32,62 @@ header{
     text-align: right;
 }
 /*fine header*/
+/*inizio main*/
+.conteiner-main{
+    display: flex;
+    flex-direction:column;
+}
+.row-main-1{
+    height: 250px;
+    background-color: blue;
+}
+.row-main-2{
+    height: 250px; 
+}
+.row-main-3{
+    height: 250px;
+    background-color:gray;
+}
+.row-main-4{
+    height: 250px;
+}
+.row-main-5{
+    height: 500px;
+   background-color:gray;
+}
+.row-main-6{
+    height: 250px;
+   background-color: black;
+}
+/*fine main*/
+hr{
+    color: gray;
+}
+/*inizio footer*/
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.row-footer{
+    background-color: greenyellow;
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    margin-top: 15px;
+}
+.column-footer-1{
+    width: calc(50%);
+}
+.column-footer-2{
+    width: calc(50%);
+    text-align: right;
+}
+span{
+    border: 1px dashed black;
+    padding: 1px;
+    background-color: pink;
+}
+/*fine footer*/
